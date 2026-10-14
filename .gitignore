@@ -1,0 +1,21 @@
+# --- oncology-trial-matcher ---
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual environment
+.venv/
+
+# Generated vector index
+chroma_db/
+
+# Downloaded or generated data
+data/raw/
+data/processed/
+
+# OS and editor junk
+.DS_Store
+.vscode/
